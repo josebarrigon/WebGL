@@ -2,7 +2,6 @@ function main(){
     var canvas = document.getElementById('example');
 
     var ctx = canvas.getContext('2d');
-
     if(!ctx){
         console.log("error");
         return;
